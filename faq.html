@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - AppShowcase</title>
+    <link rel="icon" type="image/x-icon" href="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=32&h=32&fit=crop">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=40&h=40&fit=crop" alt="App Logo" class="logo-img me-2" style="width: 40px; height: 40px; border-radius: 8px;">
+          <span class="fw-bold" style="color: #4A6CFF;">AppShowcase</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+              <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                <li><a class="dropdown-item" href="index.html">Home</a></li>
+                <li><a class="dropdown-item" href="index2.html">Index 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="screenshots.html">Screenshots</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="testimonials.html">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-download ms-1" href="download.html" style="background: linear-gradient(135deg, #4A6CFF 0%, #7D8CFF 100%); color: white; padding: 8px 16px; border-radius: 25px;">Download</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero-section" style="padding: 80px 0 60px;">
+        <div class="container text-center">
+            <h1 class="fade-in">Frequently Asked Questions</h1>
+            <p class="hero-tagline">Find answers to common questions about AppShowcase.</p>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <!-- General Questions -->
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 30px; font-size: 2rem;">General Questions</h2>
+                    
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item mb-3" style="border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 16px; overflow: hidden;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1" style="font-size: 1.2rem; font-weight: 600; padding: 20px;">
+                                    <i class="fas fa-question-circle me-2" style="color: #4A6CFF;"></i>
+                                    What is AppShowcase?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body" style="color: #1A1A1A; line-height: 1.8; padding: 20px;">
+                                    <p>AppShowcase is a modern productivity mobile application designed to help individuals and teams manage tasks, collaborate effectively, and boost productivity. It offers features like cloud sync, analytics, team collaboration, and more.</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="accordion-item mb-3" style="border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 16px; overflow: hidden;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2" style="font-size: 1.2rem; font-weight: 600; padding: 20px;">
+                                    <i class="fas fa-question-circle me-2" style="color: #4A6CFF;"></i>
+                                    Is AppShowcase free?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body" style="color: #1A1A1A; line-height: 1.8; padding: 20px;">
+                                    <p>Yes! AppShowcase offers a free plan with basic features. We also have Pro and Enterprise plans with additional features. All paid plans include a 14-day free trial.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item mb-3" style="border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 16px; overflow: hidden;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3" style="font-size: 1.2rem; font-weight: 600; padding: 20px;">
+                                    <i class="fas fa-question-circle me-2" style="color: #4A6CFF;"></i>
+                                    What platforms does AppShowcase support?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body" style="color: #1A1A1A; line-height: 1.8; padding: 20px;">
+                                    <p>AppShowcase is available for iOS (iPhone and iPad) and Android devices. We also offer a web version for desktop access. Your data syncs seamlessly across all platforms.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item mb-3" style="border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 16px; overflow: hidden;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4" style="font-size: 1.2rem; font-weight: 600; padding: 20px;">
+                                    <i class="fas fa-question-circle me-2" style="color: #4A6CFF;"></i>
+                                    Do I need an internet connection to use AppShowcase?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body" style="color: #1A1A1A; line-height: 1.8; padding: 20px;">
+                                    <p>Most features work offline. However, cloud sync, team collaboration, and some advanced features require an internet connection. Your data will sync automatically when you're back online.</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    
+                    <!-- Account & Billing -->
+                    <h2 class="section-title" style="text-align: left; margin-top: 50px; margin-bottom: 30px; font-size: 2rem;">Account & Billing</h2>
+                    
+                    <div class="accordion" id="faqAccordion2">
+                        <div class="accordion-item mb-3" style="border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 16px; overflow: hidden;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5" style="font-size: 1.2rem; font-weight: 600; padding: 20px;">
+                                    <i class="fas fa-question-circle me-2" style="color: #4A6CFF;"></i>
+                                    How do I create an account?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion2">
+                                <div class="accordion-body" style="color: #1A1A1A; line-height: 1.8; padding: 20px;">
+                                    <p>You can create an account directly from the app after downloading it, or sign up on our website. The process takes less than a minute and requires only your email address.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item mb-3" style="border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 16px; overflow: hidden;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6" style="font-size: 1.2rem; font-weight: 600; padding: 20px;">
+                                    <i class="fas fa-question-circle me-2" style="color: #4A6CFF;"></i>
+                                    Can I change my plan later?
+                                </button>
+                            </h2>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion2">
+                                <div class="accordion-body" style="color: #1A1A1A; line-height: 1.8; padding: 20px;">
+                                    <p>Absolutely! You can upgrade or downgrade your plan at any time from your account settings. Changes will be reflected in your next billing cycle, and you'll be charged or credited accordingly.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item mb-3" style="border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 16px; overflow: hidden;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7" style="font-size: 1.2rem; font-weight: 600; padding: 20px;">
+                                    <i class="fas fa-question-circle me-2" style="color: #4A6CFF;"></i>
+                                    What payment methods do you accept?
+                                </button>
+                            </h2>
+                            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion2">
+                                <div class="accordion-body" style="color: #1A1A1A; line-height: 1.8; padding: 20px;">
+                                    <p>We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and bank transfers for Enterprise plans. All payments are processed securely through our payment partners.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item mb-3" style="border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 16px; overflow: hidden;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8" style="font-size: 1.2rem; font-weight: 600; padding: 20px;">
+                                    <i class="fas fa-question-circle me-2" style="color: #4A6CFF;"></i>
+                                    Do you offer refunds?
+                                </button>
+                            </h2>
+                            <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion2">
+                                <div class="accordion-body" style="color: #1A1A1A; line-height: 1.8; padding: 20px;">
+                                    <p>Yes, we offer a 30-day money-back guarantee. If you're not satisfied with AppShowcase, contact our support team within 30 days of your purchase for a full refund.</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    
+                    <!-- Features & Usage -->
+                    <h2 class="section-title" style="text-align: left; margin-top: 50px; margin-bottom: 30px; font-size: 2rem;">Features & Usage</h2>
+                    
+                    <div class="accordion" id="faqAccordion3">
+                        <div class="accordion-item mb-3" style="border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 16px; overflow: hidden;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq9" aria-expanded="false" aria-controls="faq9" style="font-size: 1.2rem; font-weight: 600; padding: 20px;">
+                                    <i class="fas fa-question-circle me-2" style="color: #4A6CFF;"></i>
+                                    How does cloud sync work?
+                                </button>
+                            </h2>
+                            <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion3">
+                                <div class="accordion-body" style="color: #1A1A1A; line-height: 1.8; padding: 20px;">
+                                    <p>Cloud sync automatically backs up your data to secure servers and keeps it synchronized across all your devices. Any changes you make on one device will appear on all your other devices within seconds.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item mb-3" style="border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 16px; overflow: hidden;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq10" aria-expanded="false" aria-controls="faq10" style="font-size: 1.2rem; font-weight: 600; padding: 20px;">
+                                    <i class="fas fa-question-circle me-2" style="color: #4A6CFF;"></i>
+                                    Can I collaborate with my team?
+                                </button>
+                            </h2>
+                            <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion3">
+                                <div class="accordion-body" style="color: #1A1A1A; line-height: 1.8; padding: 20px;">
+                                    <p>Yes! Team collaboration is available on Pro and Enterprise plans. You can invite team members, share projects, assign tasks, and collaborate in real-time.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item mb-3" style="border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 16px; overflow: hidden;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq11" aria-expanded="false" aria-controls="faq11" style="font-size: 1.2rem; font-weight: 600; padding: 20px;">
+                                    <i class="fas fa-question-circle me-2" style="color: #4A6CFF;"></i>
+                                    How do I export my data?
+                                </button>
+                            </h2>
+                            <div id="faq11" class="accordion-collapse collapse" data-bs-parent="#faqAccordion3">
+                                <div class="accordion-body" style="color: #1A1A1A; line-height: 1.8; padding: 20px;">
+                                    <p>You can export your data at any time from the settings menu. We support exports in JSON, CSV, and PDF formats. Your data belongs to you, and you can download it whenever you need.</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    
+                    <!-- Support -->
+                    <h2 class="section-title" style="text-align: left; margin-top: 50px; margin-bottom: 30px; font-size: 2rem;">Support</h2>
+                    
+                    <div class="accordion" id="faqAccordion4">
+                        <div class="accordion-item mb-3" style="border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 16px; overflow: hidden;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq12" aria-expanded="false" aria-controls="faq12" style="font-size: 1.2rem; font-weight: 600; padding: 20px;">
+                                    <i class="fas fa-question-circle me-2" style="color: #4A6CFF;"></i>
+                                    How do I contact support?
+                                </button>
+                            </h2>
+                            <div id="faq12" class="accordion-collapse collapse" data-bs-parent="#faqAccordion4">
+                                <div class="accordion-body" style="color: #1A1A1A; line-height: 1.8; padding: 20px;">
+                                    <p>You can contact our support team through the app, email us at support@appshowcase.com, or visit our <a href="support.html" style="color: #4A6CFF;">Support Center</a>. Pro and Enterprise users get priority support with faster response times.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item mb-3" style="border: none; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 16px; overflow: hidden;">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq13" aria-expanded="false" aria-controls="faq13" style="font-size: 1.2rem; font-weight: 600; padding: 20px;">
+                                    <i class="fas fa-question-circle me-2" style="color: #4A6CFF;"></i>
+                                    Where can I find tutorials?
+                                </button>
+                            </h2>
+                            <div id="faq13" class="accordion-collapse collapse" data-bs-parent="#faqAccordion4">
+                                <div class="accordion-body" style="color: #1A1A1A; line-height: 1.8; padding: 20px;">
+                                    <p>We have comprehensive tutorials and guides available in our <a href="blog.html" style="color: #4A6CFF;">Blog</a> section. You can also find video tutorials on our YouTube channel and in-app help guides.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Still Have Questions Section -->
+    <section class="section" style="background: white;">
+        <div class="container text-center">
+            <h2 class="section-title">Still Have Questions?</h2>
+            <p class="section-subtitle">Can't find what you're looking for? Our support team is here to help.</p>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="contact.html" class="btn-primary-custom">Contact Support</a>
+                <a href="support.html" class="btn-secondary-custom">Visit Support Center</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer-section" style="background: #1A1A1A; color: #fff; padding: 60px 0 20px; margin-top: 80px;">
+      <div class="container">
+        <div class="row">
+          <!-- About Section -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="fw-bold mb-3" style="color: #4A6CFF;">About Us</h5>
+            <p style="color: #ccc; line-height: 1.8;">AppShowcase is a modern mobile application designed to enhance your productivity and streamline your daily tasks with cutting-edge features.</p>
+            <div class="social-icons mt-3">
+              <a href="https://facebook.com" target="_blank" class="social-icon me-2" style="display: inline-block; width: 40px; height: 40px; background: #1877F2; border-radius: 50%; text-align: center; line-height: 40px; color: white; text-decoration: none; transition: all 0.3s;">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank" class="social-icon me-2" style="display: inline-block; width: 40px; height: 40px; background: #1DA1F2; border-radius: 50%; text-align: center; line-height: 40px; color: white; text-decoration: none; transition: all 0.3s;">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank" class="social-icon me-2" style="display: inline-block; width: 40px; height: 40px; background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); border-radius: 50%; text-align: center; line-height: 40px; color: white; text-decoration: none; transition: all 0.3s;">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://linkedin.com" target="_blank" class="social-icon me-2" style="display: inline-block; width: 40px; height: 40px; background: #0077B5; border-radius: 50%; text-align: center; line-height: 40px; color: white; text-decoration: none; transition: all 0.3s;">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Quick Links -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="fw-bold mb-3" style="color: #4A6CFF;">Quick Links</h5>
+            <ul class="list-unstyled" style="line-height: 2.5;">
+              <li><a href="features.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Features</a></li>
+              <li><a href="screenshots.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Screenshots</a></li>
+              <li><a href="pricing.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Pricing</a></li>
+              <li><a href="testimonials.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Testimonials</a></li>
+              <li><a href="download.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Download</a></li>
+            </ul>
+          </div>
+          
+          <!-- Support Links -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="fw-bold mb-3" style="color: #4A6CFF;">Support</h5>
+            <ul class="list-unstyled" style="line-height: 2.5;">
+              <li><a href="faq.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">FAQ</a></li>
+              <li><a href="support.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Support</a></li>
+              <li><a href="changelog.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Changelog</a></li>
+              <li><a href="privacy.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Privacy Policy</a></li>
+              <li><a href="terms.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Terms of Service</a></li>
+            </ul>
+          </div>
+          
+          <!-- Contact Info -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="fw-bold mb-3" style="color: #4A6CFF;">Contact</h5>
+            <ul class="list-unstyled" style="line-height: 2.5; color: #ccc;">
+              <li><a href="mailto:contact@appshowcase.com" style="color: #ccc; text-decoration: none; transition: color 0.3s;"><i class="fas fa-envelope me-2"></i>contact@appshowcase.com</a></li>
+              <li><a href="tel:+1234567890" style="color: #ccc; text-decoration: none; transition: color 0.3s;"><i class="fas fa-phone me-2"></i>+1 (234) 567-890</a></li>
+              <li><i class="fas fa-map-marker-alt me-2"></i>123 App Street, Tech City, TC 12345</li>
+            </ul>
+          </div>
+        </div>
+        
+        <hr style="border-color: #333; margin: 40px 0 20px;">
+        
+        <div class="row">
+          <div class="col-12 text-center">
+            <p style="color: #999; margin: 0; text-align: center;">&copy; 2025 AppShowcase. All rights reserved.</p>
+            <div class="mt-3">
+              <button class="theme-toggle-footer" id="themeToggle" aria-label="Toggle dark mode" style="background: linear-gradient(135deg, #4A6CFF 0%, #7D8CFF 100%); border: none; color: white; width: 45px; height: 45px; border-radius: 50%; font-size: 18px; cursor: pointer; transition: all 0.3s; box-shadow: 0 4px 12px rgba(74, 108, 255, 0.3);">
+                <i class="fas fa-moon" id="themeIcon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+

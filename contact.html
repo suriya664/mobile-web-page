@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - AppShowcase</title>
+    <link rel="icon" type="image/x-icon" href="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=32&h=32&fit=crop">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=40&h=40&fit=crop" alt="App Logo" class="logo-img me-2" style="width: 40px; height: 40px; border-radius: 8px;">
+          <span class="fw-bold" style="color: #4A6CFF;">AppShowcase</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+              <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                <li><a class="dropdown-item" href="index.html">Home</a></li>
+                <li><a class="dropdown-item" href="index2.html">Index 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="screenshots.html">Screenshots</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="testimonials.html">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-download ms-1" href="download.html" style="background: linear-gradient(135deg, #4A6CFF 0%, #7D8CFF 100%); color: white; padding: 8px 16px; border-radius: 25px;">Download</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero-section" style="padding: 80px 0 60px;">
+        <div class="container text-center">
+            <h1 class="fade-in">Contact Us</h1>
+            <p class="hero-tagline">We'd love to hear from you. Get in touch with our team.</p>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Form -->
+                <div class="col-lg-7 mb-4">
+                    <div class="card-custom fade-in">
+                        <h2 style="font-weight: 700; margin-bottom: 30px;">Send us a Message</h2>
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="firstName" style="display: block; margin-bottom: 8px; font-weight: 500; color: #1A1A1A;">First Name</label>
+                                    <input type="text" id="firstName" name="firstName" class="form-control-custom" placeholder="John" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="lastName" style="display: block; margin-bottom: 8px; font-weight: 500; color: #1A1A1A;">Last Name</label>
+                                    <input type="text" id="lastName" name="lastName" class="form-control-custom" placeholder="Doe" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" style="display: block; margin-bottom: 8px; font-weight: 500; color: #1A1A1A;">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-control-custom" placeholder="john.doe@example.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" style="display: block; margin-bottom: 8px; font-weight: 500; color: #1A1A1A;">Subject</label>
+                                <select id="subject" name="subject" class="form-control-custom" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="support">Technical Support</option>
+                                    <option value="sales">Sales Question</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="partnership">Partnership</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" style="display: block; margin-bottom: 8px; font-weight: 500; color: #1A1A1A;">Message</label>
+                                <textarea id="message" name="message" class="form-control-custom" rows="6" placeholder="Tell us how we can help you..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary-custom" style="width: 100%;">
+                                <i class="fas fa-paper-plane me-2"></i>Send Message
+                            </button>
+                            <div class="form-message"></div>
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- Contact Information -->
+                <div class="col-lg-5" style="display: flex; flex-direction: column;">
+                    <div class="card-custom fade-in mb-4" style="display: flex; flex-direction: column; flex: 1;">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+                        <div style="flex: 1; display: flex; align-items: center; justify-content: center; min-height: 50px;">
+                            <a href="mailto:contact@appshowcase.com" style="color: #4A6CFF; text-decoration: none; font-weight: 500;">
+                                contact@appshowcase.com
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card-custom fade-in mb-4" style="display: flex; flex-direction: column; flex: 1;">
+                        <div class="card-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Call Us</h3>
+                        <p style="color: #666; margin-bottom: 15px;">Mon-Fri from 9am to 6pm</p>
+                        <div style="flex: 1; display: flex; align-items: center; justify-content: center; min-height: 50px;">
+                            <a href="tel:+1234567890" style="color: #4A6CFF; text-decoration: none; font-weight: 500;">
+                                +1 (234) 567-890
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card-custom fade-in mb-4" style="display: flex; flex-direction: column; flex: 1;">
+                        <div class="card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Visit Us</h3>
+                        <p style="color: #666; margin-bottom: 15px;">Our office location</p>
+                        <div style="flex: 1; display: flex; align-items: center; justify-content: center; min-height: 50px;">
+                            <address style="color: #4A6CFF; font-weight: 500; font-style: normal; margin: 0; text-align: center;">
+                                123 App Street<br>
+                                Tech City, TC 12345 US <br>
+                                
+                            </address>
+                        </div>
+                    </div>
+                    
+                    <div class="card-custom fade-in" style="display: flex; flex-direction: column; flex: 1;">
+                        <h3 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 20px;">Follow Us</h3>
+                        <div style="flex: 1; display: flex; align-items: center; justify-content: flex-start;">
+                            <div class="social-icons" style="display: flex; flex-direction: row; justify-content: flex-start; align-items: center; gap: 10px; flex-wrap: wrap;">
+                            <a href="https://facebook.com" target="_blank" class="social-icon" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background: #1877F2; border-radius: 50%; color: white; text-decoration: none; transition: all 0.3s;">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" class="social-icon" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background: #1DA1F2; border-radius: 50%; color: white; text-decoration: none; transition: all 0.3s;">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://instagram.com" target="_blank" class="social-icon" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); border-radius: 50%; color: white; text-decoration: none; transition: all 0.3s;">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" class="social-icon" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background: #0077B5; border-radius: 50%; color: white; text-decoration: none; transition: all 0.3s;">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Quick Links -->
+    <section class="section" style="background: white;">
+        <div class="container">
+            <h2 class="section-title">Need Help?</h2>
+            <p class="section-subtitle">Check out these resources before contacting us.</p>
+            <div class="row" style="display: flex; flex-wrap: wrap; align-items: stretch;">
+                <div class="col-lg-4 col-md-6 mb-4" style="display: flex; flex-direction: column;">
+                    <div class="card-custom fade-in text-center" style="display: flex; flex-direction: column; flex: 1; height: 100%;">
+                        <div class="card-icon" style="margin: 0 auto 20px;">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <h3>FAQ</h3>
+                        <p style="color: #666; margin-bottom: 20px; flex: 1;">Find answers to commonly asked questions.</p>
+                        <a href="faq.html" class="card-link" style="margin-top: auto;">Visit FAQ <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" style="display: flex; flex-direction: column;">
+                    <div class="card-custom fade-in text-center" style="display: flex; flex-direction: column; flex: 1; height: 100%;">
+                        <div class="card-icon" style="margin: 0 auto 20px;">
+                            <i class="fas fa-life-ring"></i>
+                        </div>
+                        <h3>Support Center</h3>
+                        <p style="color: #666; margin-bottom: 20px; flex: 1;">Get help with technical issues and troubleshooting.</p>
+                        <a href="support.html" class="card-link" style="margin-top: auto;">Get Support <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" style="display: flex; flex-direction: column;">
+                    <div class="card-custom fade-in text-center" style="display: flex; flex-direction: column; flex: 1; height: 100%;">
+                        <div class="card-icon" style="margin: 0 auto 20px;">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3>Documentation</h3>
+                        <p style="color: #666; margin-bottom: 20px; flex: 1;">Browse our comprehensive guides and tutorials.</p>
+                        <a href="blog.html" class="card-link" style="margin-top: auto;">Read Docs <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer-section" style="background: #1A1A1A; color: #fff; padding: 60px 0 20px; margin-top: 80px;">
+      <div class="container">
+        <div class="row">
+          <!-- About Section -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="fw-bold mb-3" style="color: #4A6CFF;">About Us</h5>
+            <p style="color: #ccc; line-height: 1.8;">AppShowcase is a modern mobile application designed to enhance your productivity and streamline your daily tasks with cutting-edge features.</p>
+            <div class="social-icons mt-3">
+              <a href="https://facebook.com" target="_blank" class="social-icon me-2" style="display: inline-block; width: 40px; height: 40px; background: #1877F2; border-radius: 50%; text-align: center; line-height: 40px; color: white; text-decoration: none; transition: all 0.3s;">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank" class="social-icon me-2" style="display: inline-block; width: 40px; height: 40px; background: #1DA1F2; border-radius: 50%; text-align: center; line-height: 40px; color: white; text-decoration: none; transition: all 0.3s;">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank" class="social-icon me-2" style="display: inline-block; width: 40px; height: 40px; background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); border-radius: 50%; text-align: center; line-height: 40px; color: white; text-decoration: none; transition: all 0.3s;">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://linkedin.com" target="_blank" class="social-icon me-2" style="display: inline-block; width: 40px; height: 40px; background: #0077B5; border-radius: 50%; text-align: center; line-height: 40px; color: white; text-decoration: none; transition: all 0.3s;">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Quick Links -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="fw-bold mb-3" style="color: #4A6CFF;">Quick Links</h5>
+            <ul class="list-unstyled" style="line-height: 2.5;">
+              <li><a href="features.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Features</a></li>
+              <li><a href="screenshots.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Screenshots</a></li>
+              <li><a href="pricing.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Pricing</a></li>
+              <li><a href="testimonials.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Testimonials</a></li>
+              <li><a href="download.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Download</a></li>
+            </ul>
+          </div>
+          
+          <!-- Support Links -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="fw-bold mb-3" style="color: #4A6CFF;">Support</h5>
+            <ul class="list-unstyled" style="line-height: 2.5;">
+              <li><a href="faq.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">FAQ</a></li>
+              <li><a href="support.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Support</a></li>
+              <li><a href="changelog.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Changelog</a></li>
+              <li><a href="privacy.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Privacy Policy</a></li>
+              <li><a href="terms.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Terms of Service</a></li>
+            </ul>
+          </div>
+          
+          <!-- Contact Info -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="fw-bold mb-3" style="color: #4A6CFF;">Contact</h5>
+            <ul class="list-unstyled" style="line-height: 2.5; color: #ccc;">
+              <li><a href="mailto:contact@appshowcase.com" style="color: #ccc; text-decoration: none; transition: color 0.3s;"><i class="fas fa-envelope me-2"></i>contact@appshowcase.com</a></li>
+              <li><a href="tel:+1234567890" style="color: #ccc; text-decoration: none; transition: color 0.3s;"><i class="fas fa-phone me-2"></i>+1 (234) 567-890</a></li>
+              <li><i class="fas fa-map-marker-alt me-2"></i>123 App Street, Tech City, TC 12345</li>
+            </ul>
+          </div>
+        </div>
+        
+        <hr style="border-color: #333; margin: 40px 0 20px;">
+        
+        <div class="row">
+          <div class="col-12 text-center">
+            <p style="color: #999; margin: 0; text-align: center;">&copy; 2025 AppShowcase. All rights reserved.</p>
+            <div class="mt-3">
+              <button class="theme-toggle-footer" id="themeToggle" aria-label="Toggle dark mode" style="background: linear-gradient(135deg, #4A6CFF 0%, #7D8CFF 100%); border: none; color: white; width: 45px; height: 45px; border-radius: 50%; font-size: 18px; cursor: pointer; transition: all 0.3s; box-shadow: 0 4px 12px rgba(74, 108, 255, 0.3);">
+                <i class="fas fa-moon" id="themeIcon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+

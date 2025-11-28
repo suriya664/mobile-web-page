@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppShowcase - Home 2</title>
+    <link rel="icon" type="image/x-icon" href="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=32&h=32&fit=crop">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=40&h=40&fit=crop" alt="App Logo" class="logo-img me-2" style="width: 40px; height: 40px; border-radius: 8px;">
+          <span class="fw-bold" style="color: #4A6CFF;">AppShowcase</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+              <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                <li><a class="dropdown-item" href="index.html">Home</a></li>
+                <li><a class="dropdown-item active" href="index2.html">Index 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="screenshots.html">Screenshots</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="testimonials.html">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-download ms-1" href="download.html" style="background: linear-gradient(135deg, #4A6CFF 0%, #7D8CFF 100%); color: white; padding: 8px 16px; border-radius: 25px;">Download</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in">
+                    <h1 style="font-weight: 700; color: #1A1A1A;">Welcome to AppShowcase</h1>
+                    <p class="hero-tagline">Experience the future of mobile productivity. Our innovative app combines powerful features with an elegant design to help you achieve more.</p>
+                    <div class="row mt-4">
+                        <div class="col-md-6 mb-3">
+                            <a href="https://apps.apple.com" target="_blank" style="text-decoration: none; color: inherit;">
+                                <div class="card-custom fade-in" style="cursor: pointer; transition: transform 0.3s;">
+                                    <div style="text-align: center; margin-bottom: 20px;">
+                                        <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?w=200&h=200&fit=crop" alt="App Store" style="width: 120px; height: 120px; border-radius: 20px; object-fit: cover;">
+                                    </div>
+                                    <h3 style="text-align: center; font-weight: 600; margin-bottom: 10px; color: #1A1A1A;">Download on the</h3>
+                                    <p style="text-align: center; color: #666; margin: 0; font-size: 1.1rem; font-weight: 600;">App Store</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <a href="https://play.google.com" target="_blank" style="text-decoration: none; color: inherit;">
+                                <div class="card-custom fade-in" style="cursor: pointer; transition: transform 0.3s;">
+                                    <div style="text-align: center; margin-bottom: 20px;">
+                                        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=200&h=200&fit=crop" alt="Google Play" style="width: 120px; height: 120px; border-radius: 20px; object-fit: cover;">
+                                    </div>
+                                    <h3 style="text-align: center; font-weight: 600; margin-bottom: 10px; color: #1A1A1A;">Get it on</h3>
+                                    <p style="text-align: center; color: #666; margin: 0; font-size: 1.1rem; font-weight: 600;">Google Play</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image slide-up">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=600&q=80" alt="App Mockup" class="img-fluid" loading="eager" style="width: 100%; max-width: 300px; height: auto;">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Preview Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Key Features</h2>
+            <p class="section-subtitle">Explore the amazing features that set AppShowcase apart from the competition.</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-custom fade-in">
+                        <div class="card-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Super Fast</h3>
+                        <p>Lightning-quick performance that keeps up with your busy lifestyle. No lag, no waiting.</p>
+                        <a href="features.html" class="card-link">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-custom fade-in">
+                        <div class="card-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h3>100% Secure</h3>
+                        <p>Bank-level encryption ensures your data stays safe and private at all times.</p>
+                        <a href="features.html" class="card-link">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-custom fade-in">
+                        <div class="card-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Premium Quality</h3>
+                        <p>Beautifully crafted interface with attention to every detail for the best user experience.</p>
+                        <a href="features.html" class="card-link">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Stats Section -->
+    <section class="section" style="background: white;">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="fade-in">
+                        <h2 style="color: #4A6CFF; font-size: 3rem; font-weight: 700; margin-bottom: 10px;">10K+</h2>
+                        <p style="color: #666; font-size: 1.1rem;">Active Users</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="fade-in">
+                        <h2 style="color: #4A6CFF; font-size: 3rem; font-weight: 700; margin-bottom: 10px;">4.9</h2>
+                        <p style="color: #666; font-size: 1.1rem;">App Rating</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="fade-in">
+                        <h2 style="color: #4A6CFF; font-size: 3rem; font-weight: 700; margin-bottom: 10px;">50+</h2>
+                        <p style="color: #666; font-size: 1.1rem;">Countries</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="fade-in">
+                        <h2 style="color: #4A6CFF; font-size: 3rem; font-weight: 700; margin-bottom: 10px;">24/7</h2>
+                        <p style="color: #666; font-size: 1.1rem;">Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="section" style="background: linear-gradient(135deg, #4A6CFF 0%, #7D8CFF 100%); color: white; border-radius: 50px 50px 0 0;">
+        <div class="container text-center">
+            <h2 style="color: white; font-weight: 700;">Join Thousands of Happy Users</h2>
+            <p style="color: rgba(255,255,255,0.9); font-size: 1.2rem; margin-bottom: 30px;">Start your journey with AppShowcase today and see the difference.</p>
+            <a href="download.html" class="btn-secondary-custom" style="background: white; color: #4A6CFF;">Download Now</a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer-section" style="background: #1A1A1A; color: #fff; padding: 60px 0 20px; margin-top: 80px;">
+      <div class="container">
+        <div class="row">
+          <!-- About Section -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="fw-bold mb-3" style="color: #4A6CFF;">About Us</h5>
+            <p style="color: #ccc; line-height: 1.8;">AppShowcase is a modern mobile application designed to enhance your productivity and streamline your daily tasks with cutting-edge features.</p>
+            <div class="social-icons mt-3">
+              <a href="https://facebook.com" target="_blank" class="social-icon me-2" style="display: inline-block; width: 40px; height: 40px; background: #1877F2; border-radius: 50%; text-align: center; line-height: 40px; color: white; text-decoration: none; transition: all 0.3s;">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank" class="social-icon me-2" style="display: inline-block; width: 40px; height: 40px; background: #1DA1F2; border-radius: 50%; text-align: center; line-height: 40px; color: white; text-decoration: none; transition: all 0.3s;">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank" class="social-icon me-2" style="display: inline-block; width: 40px; height: 40px; background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); border-radius: 50%; text-align: center; line-height: 40px; color: white; text-decoration: none; transition: all 0.3s;">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://linkedin.com" target="_blank" class="social-icon me-2" style="display: inline-block; width: 40px; height: 40px; background: #0077B5; border-radius: 50%; text-align: center; line-height: 40px; color: white; text-decoration: none; transition: all 0.3s;">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Quick Links -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="fw-bold mb-3" style="color: #4A6CFF;">Quick Links</h5>
+            <ul class="list-unstyled" style="line-height: 2.5;">
+              <li><a href="features.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Features</a></li>
+              <li><a href="screenshots.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Screenshots</a></li>
+              <li><a href="pricing.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Pricing</a></li>
+              <li><a href="testimonials.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Testimonials</a></li>
+              <li><a href="download.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Download</a></li>
+            </ul>
+          </div>
+          
+          <!-- Support Links -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="fw-bold mb-3" style="color: #4A6CFF;">Support</h5>
+            <ul class="list-unstyled" style="line-height: 2.5;">
+              <li><a href="faq.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">FAQ</a></li>
+              <li><a href="support.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Support</a></li>
+              <li><a href="changelog.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Changelog</a></li>
+              <li><a href="privacy.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Privacy Policy</a></li>
+              <li><a href="terms.html" style="color: #ccc; text-decoration: none; transition: color 0.3s;">Terms of Service</a></li>
+            </ul>
+          </div>
+          
+          <!-- Contact Info -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="fw-bold mb-3" style="color: #4A6CFF;">Contact</h5>
+            <ul class="list-unstyled" style="line-height: 2.5; color: #ccc;">
+              <li><a href="mailto:contact@appshowcase.com" style="color: #ccc; text-decoration: none; transition: color 0.3s;"><i class="fas fa-envelope me-2"></i>contact@appshowcase.com</a></li>
+              <li><a href="tel:+1234567890" style="color: #ccc; text-decoration: none; transition: color 0.3s;"><i class="fas fa-phone me-2"></i>+1 (234) 567-890</a></li>
+              <li><i class="fas fa-map-marker-alt me-2"></i>123 App Street, Tech City, TC 12345</li>
+            </ul>
+          </div>
+        </div>
+        
+        <hr style="border-color: #333; margin: 40px 0 20px;">
+        
+        <div class="row">
+          <div class="col-12 text-center">
+            <p style="color: #999; margin: 0; text-align: center;">&copy; 2025 AppShowcase. All rights reserved.</p>
+            <div class="mt-3">
+              <button class="theme-toggle-footer" id="themeToggle" aria-label="Toggle dark mode" style="background: linear-gradient(135deg, #4A6CFF 0%, #7D8CFF 100%); border: none; color: white; width: 45px; height: 45px; border-radius: 50%; font-size: 18px; cursor: pointer; transition: all 0.3s; box-shadow: 0 4px 12px rgba(74, 108, 255, 0.3);">
+                <i class="fas fa-moon" id="themeIcon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+
